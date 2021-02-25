@@ -12,9 +12,10 @@ import BillingDetails from './BillingDetails';
 import ShippingDetails from './ShippingDetails';
 import PaymentOption from './PaymentOption';
 
+
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '32%',
+    width: '100%'
   },
   button: {
     marginRight: theme.spacing(1),
@@ -102,11 +103,12 @@ export default function HorizontalNonLinearStepper() {
   };
 
   return (
-    <div className={classes.root}>
+    <div className="container d-flex justify-content-center">
+        <div >
       <Stepper nonLinear activeStep={activeStep} >
         {steps.map((label, index) => (
-          <Step key={label}>
-            <StepButton onClick={handleStep(index)} completed={completed[index]}>
+          <Step key={label} >
+            <StepButton onClick={handleStep(index)} completed={completed[index]} >
               {label}
             </StepButton>
           </Step>
@@ -123,7 +125,7 @@ export default function HorizontalNonLinearStepper() {
         ) : (
           <div>
             <Typography className={classes.instructions}>{getStepContent(activeStep)}</Typography>
-            <div>
+            <div style={{marginLeft:'50%'}}>
               <Button disabled={activeStep === 0} onClick={handleBack} className={classes.button} style={{backgroundColor:"#9e9e9e",color:"white"}}>
                 Back
               </Button>
@@ -151,5 +153,7 @@ export default function HorizontalNonLinearStepper() {
         )}
       </div>
     </div>
+    </div>
+    
   );
 }
