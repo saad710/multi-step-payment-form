@@ -1,16 +1,16 @@
-.btn:active{
-    color:#ec407a;
+.nav-btn:active {
+  color: #ec407a;
 }
-.btn:focus{
-    color:#ec407a;
-    box-shadow: 0 -5px #ec407a;
-    font-size: 14px;
+.nav-btn:focus {
+  color: #ec407a;
+  box-shadow: 0 -5px #ec407a;
+  font-size: 14px;
 }
-.btn{
-    color:#9e9e9e;
-    border:none;
-    outline:none;
-    width:8rem !important;
-    font-weight: bold;
-    height:3.3rem;
+.nav-btn {
+  color: #9e9e9e;
+  border: none;
+  outline: none;
+  width: 8rem !important;
+  font-weight: bold;
+  height: 3.3rem;
 }

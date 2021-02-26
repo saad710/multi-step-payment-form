@@ -1,27 +1,29 @@
-.form-input{
-    width:18rem;
-    height:2rem;
-    outline:none;
-    background-color: #e0e0e0;
-    border: none;
-    margin-right: 1rem;
+.form-input {
+  width: 18rem;
+  height: 2rem;
+  outline: none;
+  background-color: #e0e0e0;
+  border: none;
+  margin-right: 1rem;
+  border-radius: 2px;
 }
-.form-input-select{
-    width:19rem;
-    height:2.25rem;
-    outline:none;
-    background-color: #e0e0e0;
-    border: none;
-    padding: 2px;
-    color: #807d7d;
+.form-input-select {
+  width: 19rem;
+  height: 2.15rem;
+  outline: none;
+  background-color: #e0e0e0;
+  border: none;
+  padding: 2px;
+  color: #807d7d;
+  border-radius: 2px;
 }
-.main-form{
-    margin-left:23% ;
+.main-form {
+  margin-left: 23%;
 }
 
-.main-form input{
-    padding-left: 15px;
+.main-form input {
+  padding-left: 15px;
 }
-.main-form select{
-    padding-left: 15px;
+.main-form select {
+  padding-left: 15px;
 }

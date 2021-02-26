@@ -1,0 +1,16 @@
+input[type='checkbox']:after {
+  background-color: #ec407a !important;
+  width: '4vh' !important;
+  display: inline-block;
+  visibility: visible;
+}
+.billing-details {
+  border-bottom: 1px solid #e0e0e0;
+  width: 50.7%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.billing-label {
+  margin-bottom: 50px;
+  font-style: italic;
+}
